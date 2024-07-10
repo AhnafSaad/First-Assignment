@@ -28,7 +28,7 @@ height: 66px;
 font-size: 20px;
 font-weight: 600;
 background: rgb(13, 19, 33);
-margin-left: 400px;
+margin-left: 320px;
 margin-top: 100px;
 }
 
@@ -57,19 +57,23 @@ nav ul li{
    
 position: absolute;
 width: auto;
-height: 850px;
+height: 830px;
 left: -2px;
 right: 2px;
 top: 122px;
 bottom: 4471px;
 margin: 50px 0px;
 background-image: url(/assets/Hero-bg.png);
+opacity: 100%;
+
+
 }
 
 .group-img{
-    margin-left: 800px;
+    margin-left: 600px;
     margin-top: 50px;
     margin-bottom: 30px;
+  
 }
 .bg-content{
    
@@ -80,7 +84,8 @@ height: 310px;
 
 justify-content: center;
 align-items: center;
-margin-left: 500px;
+margin-left: 300px;
+
 
 
 }
@@ -90,9 +95,12 @@ margin-left: 500px;
     opacity: 70%;
     margin-top: 50px;
     
+    
+    
 }
 .heading-bg{
 font-size: 38px;
+
 }
 .devop{
     margin-left: 320px;
