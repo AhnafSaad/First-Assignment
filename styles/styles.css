@@ -20,6 +20,15 @@ font-weight: 600;
 
 }
 
+.btn-primary1{
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 48px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .btn-saad{
    color: white;
 position: static;
@@ -30,6 +39,7 @@ font-weight: 600;
 background: rgb(13, 19, 33);
 margin-left: 320px;
 margin-top: 100px;
+
 }
 
 
@@ -125,7 +135,7 @@ padding: 50px 300px;
 
 .skill1{
   
-
+position: static;
 width: 850px;
 height: 240px;
 
@@ -133,7 +143,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-margin-top: 30px;
+margin-top: 100px;
 
 }
 
@@ -144,7 +154,7 @@ width: 850px;
 height: 240px;
 
 display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
@@ -162,9 +172,11 @@ margin-top: 30px;
 }
 
 
+
 /*video edit*/
 .ahnaf{
     text-align: center;
+    font-size: 25px;
 
 }
 .ahnaf-description{
@@ -176,60 +188,176 @@ margin-top: 30px;
 .jhankar-vaiya{
     margin-left: 280px;
     margin-top: 50px;
-}
-
-/*Target Edit*/
-.target1{
-    padding: 60px 200px;
-}
-.target-heading{
-    text-align: center;
-
-}
-.target-desc{
-    text-align: center;
-}
-/*frame*/
-
-.frame-container{
-    display: flex;
-    margin-top: 50px;
-}
-
-
-
-.footer-row1{
-    background-image: url(..//assets/handshake.jpg);
-    height: 300px;
-    width: 700px;
-  
-    padding: 60px 300px;
-    margin-left: 100px;
-    border-radius: 30px;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-  
-   
-}
-
-footer input{
-    height: 50px;
-    border-radius: 5px;
-    background-color: white;
-    color: white;
-    display: block;
-    width: 60%;
-    margin-top: 50px;
-}
-
-footer button{
-    color: Black;
-    background-color: white;
-    border-radius: 5px;
-    height: 50px;
-    width: 20%;
-   
     
-   
+}
+
+
+.my-current-target{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.current-target h4{
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.current-target p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.html img, .css img, .js img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.html h4, .css h4, .js h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 40px
+}
+
+.html p, .css p, .js p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.link{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* support */
+
+.support{
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 314px;
+    border-radius: 16px;
+    margin: 70px;
+    background-color: rgba(13, 19, 33, 0.5) ;
+    background-blend-mode: overlay;
+}
+
+.support h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.support p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding-top: 20px;
+}
+
+.suggestion{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.suggestion textarea{
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    cursor: pointer;
+}
+
+.suggestion button{
+    border-radius: 8px;
+    width: 120px;
+    height: 58px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.commitment{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    margin-left: 150px;
+}
+
+.social-media{
+    margin-right: 150px;
+    display: flex;
+    gap: 30px;
+
 }
