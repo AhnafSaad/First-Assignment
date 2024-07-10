@@ -55,7 +55,7 @@ nav ul li{
 
 .div-bg{
    
-position: absolute;
+
 width: auto;
 height: 830px;
 left: -2px;
@@ -105,4 +105,74 @@ font-size: 38px;
 .devop{
     margin-left: 320px;
     line-height: 68px;
+}
+
+/* section  */
+.why{
+padding: 50px 300px;
+
+
+
+}
+.why-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.why-description{
+    text-align: center;
+    
+}
+
+.skill1{
+  
+
+width: 850px;
+height: 240px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+
+}
+
+.skill2{
+ 
+position: static;
+width: 850px;
+height: 240px;
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.skill3{
+    width: 850px;
+height: 240px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+
+/*video edit*/
+.ahnaf{
+    text-align: center;
+
+}
+.ahnaf-description{
+    text-align: center;
+}
+.video{
+    margin: 50px 200px;
+}
+.jhankar-vaiya{
+    margin-left: 300px;
+    margin-top: 50px;
 }
