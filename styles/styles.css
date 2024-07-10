@@ -54,7 +54,7 @@ nav ul li{
 /* Div Style */
 
 .div-bg{
-   
+   background-image: url(..//assets/Hero-bg.png);
 
 width: auto;
 height: 830px;
@@ -63,7 +63,7 @@ right: 2px;
 top: 122px;
 bottom: 4471px;
 margin: 50px 0px;
-background-image: url(/assets/Hero-bg.png);
+
 opacity: 100%;
 
 
@@ -161,6 +161,7 @@ align-items: center;
 margin-top: 30px;
 }
 
+
 /*video edit*/
 .ahnaf{
     text-align: center;
@@ -170,9 +171,65 @@ margin-top: 30px;
     text-align: center;
 }
 .video{
-    margin: 50px 200px;
+    margin: 60px 200px;
 }
 .jhankar-vaiya{
-    margin-left: 300px;
+    margin-left: 280px;
     margin-top: 50px;
+}
+
+/*Target Edit*/
+.target1{
+    padding: 60px 200px;
+}
+.target-heading{
+    text-align: center;
+
+}
+.target-desc{
+    text-align: center;
+}
+/*frame*/
+
+.frame-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+.footer-row1{
+    background-image: url(..//assets/handshake.jpg);
+    height: 300px;
+    width: 700px;
+  
+    padding: 60px 300px;
+    margin-left: 100px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  
+   
+}
+
+footer input{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    display: block;
+    width: 60%;
+    margin-top: 50px;
+}
+
+footer button{
+    color: Black;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 20%;
+   
+    
+   
 }
